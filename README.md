@@ -14,4 +14,11 @@ _We recommend to use version 4.5 since we're using it_
 
 ## Theme
 
-**TBA**
+**Pink** <br/>
+![pink-color](img/pink-color.png) `#ea8485` <br/>
+**Dark Pink** <br/>
+![pink-dark-color](img/pink-dark-color.png) `#cda8a8` <br/>
+
+## Wireframe
+
+![wireframe for daily-challenge](img/wireframe.png)
