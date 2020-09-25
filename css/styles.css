@@ -1,0 +1,69 @@
+:root {
+  --pink: #ea8485;
+  --dark-pink: #cda8a8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav .nav-pills li.nav-item a.nav-link,
+.jumbotron .btn {
+  background-color: var(--dark-pink);
+  color: #fff;
+  margin: 0 2px;
+}
+
+.jumbotron {
+  height: 580px;
+  background: center bottom url("../img/dogs-running.jpg");
+  background-size: cover;
+}
+
+section.slogan {
+  height: 280px;
+}
+
+section.slogan p {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  padding: 1rem;
+}
+
+section.slogan svg {
+  width: 120px;
+  height: 100%;
+}
+
+main#content {
+  padding: 160px 100px;
+}
+
+.pink_column {
+  background-color: var(--pink);
+  padding: 1rem;
+}
+
+main#content .title {
+  font-size: 24px;
+  padding: 10px 0;
+}
+
+footer svg {
+  width: 80px;
+  height: 80px;
+}
+
+@media (max-width: 1300px) {
+  main#content {
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .pink_column {
+    margin: 20px 0;
+  }
+}
